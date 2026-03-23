@@ -1,0 +1,133 @@
+.about-container,
+.info-container {
+  display: flex;
+  justify-content: center;
+  gap: 10%;
+  /* margin: auto; */
+}
+
+.about-hero {
+  padding: 100px 0;
+  background: #f7f7f7;
+  height: 70vh;
+}
+
+.about-container {
+  display: flex;
+  align-items: center;
+  /* gap: -80px; */
+}
+
+.about-image {
+  position: relative;
+}
+
+.about-image img {
+  width: 400px;
+  border-radius: 20px;
+}
+
+.visit-card {
+  position: absolute;
+  bottom: -6%;
+  /* left: 50px; */
+  right:-5%;
+  background: #474747;
+  color: white;
+  padding: 3% 10%;
+  border-radius: 15px;
+  width: 50%;
+}
+.about-text{
+  width:30%;
+}
+.about-text h1 {
+  font-family: "Playfair Display", serif;
+  font-size: 42px;
+  margin-bottom: 20px;
+}
+
+.about-text p {
+  color: #666;
+  margin-bottom: 15px;
+}
+
+
+/* section 2 */
+
+.about-video {
+  height: 80vh;
+/*   background: url("https://images.unsplash.com/photo-1552566626-52f8b828add9")
+    center/cover no-repeat; */
+  position: relative;
+}
+
+.video-overlay {
+  height: 100%;
+  background: rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+}
+.video-overlay h1{
+  font-family: "Playfair Display", serif;
+  font-size: 42px;
+  margin-bottom: 20px;
+  width:30%
+}
+.play-btn {
+  background: white;
+  color: brown;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  /* margin-bottom: 20px; */
+  cursor: pointer;
+}
+
+/* section 2 */
+
+
+
+/* section 3 */
+
+.about-features {
+  display: flex;
+  justify-content: space-around;
+  padding: 60px 0;
+  background: #fff;
+  text-align: center;
+}
+.feature img{
+  width: 40px;
+  height: 40px;
+}
+.feature{
+  display: flex;
+  align-items: flex-start;
+  gap:10px;
+  width:30%;
+}
+.feature .feat{
+margin: 0;
+  text-align: left;
+}
+.feat h4{
+  margin:0;
+}
+
+.feature p {
+  color: #777;
+}
+
+
+/* section 3 */
+
+

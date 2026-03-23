@@ -56,13 +56,22 @@ background: #fafafa;
     grid-template-columns: repeat(4,1fr);
     gap:30px;
 }
-.menu-card {
+.card {
   padding: 60px 10px;
   border-radius: 12px;
   border: 1px solid #eee;
   box-shadow: 1px 1px 1px gray;
 
 }
+
+.card img {
+  max-width: 100px;
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
 .menu-card .icon {
   font-size: 30px;
 }
