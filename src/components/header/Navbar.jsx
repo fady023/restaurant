@@ -21,8 +21,9 @@ const Navbar = () => {
             <li className="active"><NavLink to={"/"}>Home</NavLink></li>
             <li><NavLink to={"/about"}>About</NavLink></li>
             <li><NavLink to={"/menu"}>Menu</NavLink></li>
-            <li>Pages</li>
-            <li>Contact</li>
+            <li><NavLink to={"/book"}>Book A Table</NavLink></li>
+            <li><NavLink to={"/contact"}>Contact Us</NavLink></li>
+            <li><NavLink to={"/blog"}>Blog</NavLink></li>
           </ul>
 
           <button className="btn-outline">Book A Table</button>

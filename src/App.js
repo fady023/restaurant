@@ -5,6 +5,9 @@ import About from "./components/pages/About";
 import Menu from "./components/pages/Menu";
 import {Routes,Route} from "react-router-dom";
 import Header from "./components/header/Header";
+import Booktable from "./components/pages/Booktable";
+import Contact from './components/pages/Contact';
+import Blog from './components/pages/blog';
 
 function App() {
   return (
@@ -15,6 +18,9 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/menu" element={<Menu />} />
+        <Route path="/book" element={<Booktable />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/blog" element={<Blog />} />
       </Routes>
     
 
