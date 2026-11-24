@@ -1,70 +1,90 @@
-# Getting Started with Create React App
+# 🍽️ [Restaurant ] – Restaurant Website (Front-End)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A responsive restaurant website built as part of a **Full Stack Final Project**, based on a provided Figma UI design. This repository currently contains the **front-end implementation**; the back-end is planned as the next phase.
 
-## Available Scripts
 
-In the project directory, you can run:
 
-### `npm start`
+## 🛠️ Tech Stack
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **HTML5** – page structure
+- **CSS3** – custom styling
+- **JavaScript (ES6)** – interactivity
+- **Bootstrap 5** – responsive layout and components
+- **React** – component-based UI
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## 📄 Pages
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+| Page | Description |
+|------|-------------|
+| **Home** | Landing page with selected sections from the design |
+| **About Us** | Information about the restaurant |
+| **Our Menu** | Menu items displayed by category |
+| **Book a Table** | Table reservation form |
+| **Login** | User / admin login form |
+| **Register** | New user registration form |
+| **Profile** | View and edit personal data |
+| **My Bookings** | Previous and current bookings with their status |
+| **Admin Panel** | Manage users, bookings, and menu items |
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## ✨ Front-End Features
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- Fully responsive design (mobile, tablet, desktop)
+- Pixel-accurate implementation of the Figma design
+- Reusable React components (Navbar, Footer, Cards, Forms, ...)
+- Client-side routing between pages
+- Form layouts for login, register, booking, and profile update
+- Admin dashboard UI with tables for users, bookings, and menu items (add / edit / delete)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+## 🚀 Planned Back-End Features
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- Authentication & authorization (normal users and admins)
+- Admin CRUD operations for menu items
+- Table booking for logged-in users only
+- Admin accepts/rejects bookings, and the user gets a notification
+- "My Bookings" page showing booking history and status
+- Profile data retrieval and update
+- Database schema design
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## ⚙️ Getting Started
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```bash
+# Clone the repository
+git clone https://github.com/[fady023]/[restaurant].git
 
-## Learn More
+# Go to the project folder
+cd [restaurant]
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+# Install dependencies
+npm install
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+# Run the development server
+npm start
+```
 
-### Code Splitting
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## 📁 Project Structure
 
-### Analyzing the Bundle Size
+```
+src/
+├── components/   # Reusable components
+├── pages/        # Application pages
+├── assets/       # Images and icons
+└── App.js
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+---
+---
 
-### Making a Progressive Web App
+## 👤 Author
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+**[fady023]**
+[GitHub] https://github.com/fady023
